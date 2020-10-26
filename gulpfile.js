@@ -75,10 +75,10 @@ function bs() {
 	browserSync.init({
 		server: {
 			baseDir: "app/",			//корневая директория сервера
-			index: "index.html",					//индексный файл
+			index: "index.html",		//индексный файл
 		},
-		notify: true,								//всплывающее уведомление Browser-Sync
-		online: true,								//свервер локально или по всей Wi-Fi сети?
+		notify: true,					//всплывающее уведомление Browser-Sync
+		online: true,					//свервер локально или по всей Wi-Fi сети?
 	});
 }
 function build() {
@@ -88,6 +88,7 @@ function build() {
 			"app/js/**/*.min.js",
 			"app/img/dist/**/*",
 			"app/index.html",
+			"app/font/**/*"
 		],
 		{
 			base: "app",
@@ -101,6 +102,7 @@ function github_page() {
 			"app/js/**/*.min.js",
 			"app/img/dist/**/*",
 			"app/index.html",
+			"app/font/**/*"
 		],
 		{
 			base: "app",
