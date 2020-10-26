@@ -2,18 +2,222 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
-    <title>gulp</title>
+    <meta charset="UTF-8">
+	<title>Строй Бро - Строительство загородных домов</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="font/icons/Icons.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/dist/favicon.png" type="image/png">
 </head>
 
 <body>
-    <header class="header">i am header</header>
-    <footer class="footer">i am footer</footer>
+
+	<header class="header">
+		<div class="descriptor">
+			<div class="container-xl">
+				<div class="row">
+					<div class="col">
+						<ul class="descriptor-nav">
+							<li class="descriptor-nav__item"><a href="tel:"><i class="Icons-phone-call"></i>+7 (999)
+									999-99-99</a></li>
+							<li class="descriptor-nav__item"><a href="mailto:"><i
+										class="Icons-email"></i>info@stroy-bro.ru</a></li>
+							<li class="descriptor-nav__item"><a href="#"><i class="Icons-placeholder"></i>г.
+									Санкт-Петербург, ул Ленина 11</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="header-nav">
+			<div class="container-xl">
+				<div class="row align-items-center">
+					<div class="col">
+						<div class="header-nav__inner">
+							<a class="logo" href="/"><img class="logo__img" src="img/dist/logo.png"></a>
+							<a class="header-nav__burger-menu"></a>
+							<ul class="main-menu">
+								<!-- <li class="main-menu__item main-menu__mobile-logo"><a class="logo" href="/"><img class="logo__img" src="img/logo.png"></a></li> -->
+								<li class="main-menu__item"><a href="#">Главная</a></li>
+								<li class="main-menu__item"><a href="#go-test">Тест</a></li>
+								<li class="main-menu__item"><a href="#portfolio">Портфолио</a></li>
+								<li class="main-menu__item"><a href="#">Преимущество</a></li>
+								<li class="main-menu__item"><a href="#">Контакты</a></li>
+								<li class="main-menu__item btn show-pop-up" data-pop-up-content="pop-up-form"><a href="#">Оставить заявку</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
 
 
-    <script src="/js/script.js"></script>
+	<content>
+		<section class="main-screen" id="main-home" style="background-image: url('img/dist/bg.jpg');">
+			<div class="container-xl">
+				<div class="row align-items-center">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<h1 class="main-header">Строительство котеджей<br> и загородных домов</h1>
+						<a href="#" class="btn show-pop-up" data-pop-up-content="pop-up-form">Оставить заявку</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="go-test" id="go-test">
+			<div class="container-xl">
+				<div class="row align-items-center">
+					<div class="col-md-7">
+						<h3 class="go-test__caption">Пройти тест "Какая технология строительства мне подходит?"</h3>
+					</div>
+					<div class="col-md-5">
+						<a href="#" class="btn show-pop-up go-test__btn" data-pop-up-content="pop-up-test">Пройти тест</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="portfolio" id="portfolio">
+			<div class="container-xl">
+				<div class="row">
+					<div class="col-12">
+						<h3 class="portfolio__caption">Портфолио</h3>
+					</div>
+					<div class="col-md-6">
+						<div class="temp-img" style="background-image: url(img/dist/portfolio-10.jpg);"></div>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="temp-img" style="background-image: url(img/dist/portfolio-1.jpg);"></div>
+							</div>
+							<div class="col-md-6">
+								<div class="temp-img" style="background-image: url(img/dist/portfolio-2.jpg);"></div>
+							</div>
+							<div class="col-md-6">
+								<div class="temp-img" style="background-image: url(img/dist/portfolio-3.jpg);"></div>
+							</div>
+							<div class="col-md-6">
+								<div class="temp-img" style="background-image: url(img/dist/portfolio-4.jpg);"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="temp-img" style="background-image: url(img/dist/portfolio-5.jpg);"></div>
+							</div>
+							<div class="col-md-6">
+								<div class="temp-img" style="background-image: url(img/dist/portfolio-6.jpg);"></div>
+							</div>
+							<div class="col-md-6">
+								<div class="temp-img" style="background-image: url(img/dist/portfolio-7.jpg);"></div>
+							</div>
+							<div class="col-md-6">
+								<div class="temp-img" style="background-image: url(img/dist/portfolio-8.jpg);"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="temp-img" style="background-image: url(img/dist/portfolio-9.jpg);"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</content>
+
+
+	<footer></footer>
+
+	<div class="pop-up">
+		<div class="pop-up__dark"></div>
+		<div class="container-xl">
+			<div class="row">
+				<div class="col">
+					<div class="pop-up__block pop-up-form">
+						<div class="contact-form contact-form--main">
+							<form>
+								<p><strong class="contact-form__caption">Оставьте заявку</strong></p>
+								<p><input type="text" name="name" placeholder="Имя"></p>
+								<p><input type="phone" name="phone" placeholder="Телефон"></p>
+								<p><input class="btn" type="submit" value="Отправить"></p>
+							</form>
+						</div>
+					</div>
+					<div class="pop-up__block pop-up-test">
+						<div class="contact-form contact-form--main">
+							<form>
+								<p><strong class="contact-form__caption">Тест</strong></p>
+								<p><input type="text" name="name" placeholder="Имя"></p>
+								<p><input type="phone" name="phone" placeholder="Телефон"></p>
+								<p><input class="btn" type="submit" value="Начать"></p>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		let toggleMenu = function (e) {
+			const mainMenu = document.querySelector('header .header-nav .main-menu'),
+				burgerBtn = document.querySelector('header .header-nav .header-nav__burger-menu');
+
+			let isCorrect = e.target === burgerBtn;
+			isOpen = mainMenu.classList.contains('main-menu--show');
+
+			if (isOpen) {
+				mainMenu.classList.remove('main-menu--show');
+			} else if (isCorrect) {
+				mainMenu.classList.add('main-menu--show');
+				isOpen = true;
+			}
+
+		}
+		document.addEventListener('click', toggleMenu);
+
+		let showPopUp = function (e) {
+			console.log(e.target)
+			const btn = e.target.closest('.show-pop-up'),
+				popUp = document.querySelector('.pop-up');
+
+			if (btn) {
+				e.preventDefault();
+				// document.body.style.overflow = "hidden";
+				popUp.querySelector('.'+btn.getAttribute('data-pop-up-content')).classList.add('pop-up__block--show')
+				popUp.classList.add('pop-up--show');
+			} else if (e.target.classList.contains('pop-up__block')) {
+				e.preventDefault();
+				// document.body.style.overflow = "";
+				popUp.classList.remove('pop-up--show');
+				popUp.querySelector('.pop-up__block--show').classList.remove('pop-up__block--show')
+			}
+		}
+		document.addEventListener('click', showPopUp);
+		document.onscroll = function (e) {
+			let descriptoHeight = document.querySelector('.descriptor').getBoundingClientRect().height;
+			let header = document.querySelector('.header');
+			let isFixed = header.classList.contains('header--fixed');
+			let top = document.body.getBoundingClientRect().y;
+			let isCorrectTop
+
+			if (isFixed) {
+				if (top > -1 * descriptoHeight) {
+					header.classList.remove('header--fixed')
+				}
+			} else {
+				if (top < -1 * descriptoHeight) {
+					header.classList.add('header--fixed')
+				}
+			}
+
+		}
+
+	</script>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
